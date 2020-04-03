@@ -1,0 +1,16 @@
+.horizontal{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    overflow-y: hidden;
+}
+.horizontal div{
+    padding: 10px;
+}
+.skeumorphic{
+    border: none;
+    box-shadow: 2px 2px 8px #000, -2px -2px 8px #444;
+}
+a:hover:before{
+    width: 0%;
+}
