@@ -2,14 +2,14 @@
 	"dir" : "ltr",
 	"lang" : "en",
 	"name" : "The Code Drop Box",
-	"scope" : "/The-Code-Drop-Box/",
-	"display" : "browser",
-	"start_url" : "https://shivendrasaurav.github.io/The-Code-Drop-Box/",
-	"short_name" : "The Code Drop Box",
-	"theme_color" : "transparent",
+	"scope" : "./The-Code-Drop-Box/",
+	"display" : "standalone",
+	"start_url" : "index.html",
+	"short_name" : "The CDB",
+	"theme_color" : "#2e2e2e",
 	"description" : "Web App For The Code Drop",
 	"orientation" : "any",
-	"background_color" : "transparent",
+	"background_color" : "#1e1e1e",
 	"related_applications" : [],
 	"prefer_related_applications" : false,
 	"icons" : [
@@ -24,6 +24,6 @@
 			"sizes": "512x512"
 		}
 	],
-	"url" : "https://shivendrasaurav.github.io/The-Code-Drop-Box/",
+	"url" : "https://shivendrasaurav.github.io/The-Code-Drop-Box/index.html",
 	"generated" : "true"
 }
