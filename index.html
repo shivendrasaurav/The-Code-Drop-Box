@@ -9,56 +9,7 @@
     <link href="extra.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="pwabuilder-sw.js"></script>
-    <script>
-        let deferredPrompt = null;
-
-        window.addEventListener('beforeinstallprompt', (e) => {
-        // Prevent Chrome 67 and earlier from automatically showing the prompt
-        e.preventDefault();
-        // Stash the event so it can be triggered later.
-        deferredPrompt = e;
-        });
-
-        async function install() {
-        if (deferredPrompt) {
-            deferredPrompt.prompt();
-            console.log(deferredPrompt)
-            deferredPrompt.userChoice.then(function(choiceResult){
-
-            if (choiceResult.outcome === 'accepted') {
-            console.log('Your PWA has been installed');
-            } else {
-            console.log('User chose to not install your PWA');
-            }
-
-            deferredPrompt = null;
-
-            });
-
-        }
-        closeinstaller();
-        }
-
-        function showinstaller(){
-            document.getElementById("install_button").style.display="Block";
-        
-        }
-        
-        function closeinstaller(){
-            document.getElementById("install_button").style.display="none";
-        }
-    </script>
-    <script>
-        function checkinstall(){
-            if (window.matchMedia('(display-mode: standalone)').matches) {  
-                closeinstaller();
-                console.log('display-mode is standalone');
-            }  
-            else
-                showinstaller();
-        }
-    </script>
+    
 </head>
 <body onload="darkmode(); checkinstall()" class="primary_inverted">
 
@@ -157,6 +108,3 @@
     </div>
 
 </body>
-
-<script type="module" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"></script>
-<pwa-install></pwa-install>
