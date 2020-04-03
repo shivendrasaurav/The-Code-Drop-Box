@@ -5,7 +5,7 @@
 	"scope" : "./",
 	"display" : "standalone",
 	"start_url" : "./",
-	"short_name" : "The CDB",
+	"short_name" : "CDB",
 	"theme_color" : "#2e2e2e",
 	"description" : "Web App For The Code Drop",
 	"orientation" : "any",
