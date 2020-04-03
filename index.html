@@ -5,13 +5,14 @@
     <link href="https://fluentdesignforweb.github.io/Icons/css/fluent-icons.css" type="text/css" rel="stylesheet">
     <script src="https://fluentdesignforweb.github.io/fluent.js"></script>
     <link href="extra.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body class="primary_inverted">
+<div class="primary_inverted" id="body">
 
     <div class="nav_container" style="background: #3e3e3e; color: #eee; width: 100%; padding: 0px 30px; position: sticky; top: 0px;">
         <p class="left" style="font-size: 24px;">The Code Drop Box</p>
-        <button class="right" style="margin-top: 17px; background: transparent; color: #eee; font-size: 24px;" onclick="showside1();">
+        <button class="right" style="margin-top: 17px; background: transparent; color: #eee; font-size: 24px;" onclick="openside1();">
             <i class="ms-Icon ms-Icon--GlobalNavButton" aria-hidden="true"></i>
         </button>
     </div>
@@ -68,6 +69,11 @@
         </div>
     </div>
 
+    <div class="page_container" style="padding-top: 25px;">
+        <hr>
+        <p style="font-size: 24px;">More content coming soon</p>
+    </div>
+
     <div style="padding: 30px; background: #3e3e3e; color: #eee; margin-top: 25px; width: 100%;">
         Get connected with <b>The Code Drop</b> on these Platforms<br><br>
         <a href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?sub_confirmation=1" style="text-decoration: none;">
@@ -81,4 +87,16 @@
         </a>
     </div>
 
-</body>
+</div>
+
+<div class="sidepanel_container" id="side1" >
+    <div class="sidepanel_content zi3 right" id="modct1" style="background: #2e2e2e; color: #eee;">
+        <button class="primary_red right ta_center mod_close_btn" onclick="closeside1();">X</button>
+        <div class="page_container" style="padding-top: 75px;">
+            <div class="large12 panel_item">Switch to light mode<br>(coming soon)</div>
+        </div>
+        <div style="position: absolute; bottom: 10px">
+            &copy;The Code Drop 2020
+        </div>
+    </div>
+</div>
