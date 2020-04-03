@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fluentdesignforweb.github.io/normalize.css" type="text/css" rel="stylesheet">
+    <link href="https://fluentdesignforweb.github.io/fluent.css" type="text/css" rel="stylesheet">
+    <link href="https://fluentdesignforweb.github.io/Icons/css/fluent-icons.css" type="text/css" rel="stylesheet">
+    <script src="https://fluentdesignforweb.github.io/fluent.js"></script>
+    <script src="extra.js"></script>
+    <link href="extra.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body onload="darkmode();" class="primary_inverted">
+
+    <div id="body" style="width: 100%;">
+
+        <div class="nav_container" style="background: #3e3e3e; color: #eee; width: 100%; padding: 0px 30px; position: sticky; top: 0px;">
+            <p class="left" style="font-size: 24px;">The Code Drop Box</p>
+            <button class="right" style="margin-top: 17px; background: transparent; color: #eee; font-size: 24px;" onclick="openside1();">
+                <i class="ms-Icon ms-Icon--GlobalNavButton" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <h1 class="ta_center" style="margin-top: 100px; font-family: consolas, 'roboto', helvetica">
+            The Code Drop Box
+        </h1>
+
+        <h4 class="ta_center">
+            It appears you're offline, connect to the internet and try again.
+        </h4>
+
+        <div style="font-size: 256px;" class="ta_center">
+            <i class="ms-Icon ms-Icon--WifiWarning4"></i>
+        </div>
+
+        <button class="large center primary_yellow" onclick="location.reload();">
+            Recconnect
+        </button>
+        <br><br><br><br><br>
+    </div>
+
+    <div class="sidepanel_container" id="side1" >
+        <div class="sidepanel_content zi3 right" id="modct1" style="background: #2e2e2e; color: #eee;">
+            <button class="primary_red right ta_center mod_close_btn" onclick="closeside1();">X</button>
+            <div class="page_container" style="padding-top: 75px;">
+                <button class="large12 panel_item" onclick="lightmode();" id="light">Switch to light mode</button>
+                <button class="large12 panel_item" onclick="darkmode();" id="dark">Switch to dark mode</button>
+            </div>
+            <div style="position: absolute; bottom: 10px">
+                &copy;The Code Drop 2020
+            </div>
+        </div>
+    </div>
+
+</body>

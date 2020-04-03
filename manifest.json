@@ -1,0 +1,18 @@
+{
+	"dir" : "ltr",
+	"lang" : "en",
+	"name" : "",
+	"scope" : "/The-Code-Drop-Box/",
+	"display" : "browser",
+	"start_url" : "https://shivendrasaurav.github.io/The-Code-Drop-Box/",
+	"short_name" : "",
+	"theme_color" : "transparent",
+	"description" : "",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [],
+	"url" : "https://shivendrasaurav.github.io/The-Code-Drop-Box/",
+	"generated" : "true"
+}
