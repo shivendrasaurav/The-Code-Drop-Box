@@ -4,99 +4,104 @@
     <link href="https://fluentdesignforweb.github.io/fluent.css" type="text/css" rel="stylesheet">
     <link href="https://fluentdesignforweb.github.io/Icons/css/fluent-icons.css" type="text/css" rel="stylesheet">
     <script src="https://fluentdesignforweb.github.io/fluent.js"></script>
+    <script src="extra.js"></script>
     <link href="extra.css" type="text/css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<body onload="darkmode();">
 
-<div class="primary_inverted" id="body">
+    <div class="primary_inverted" id="body">
 
-    <div class="nav_container" style="background: #3e3e3e; color: #eee; width: 100%; padding: 0px 30px; position: sticky; top: 0px;">
-        <p class="left" style="font-size: 24px;">The Code Drop Box</p>
-        <button class="right" style="margin-top: 17px; background: transparent; color: #eee; font-size: 24px;" onclick="openside1();">
-            <i class="ms-Icon ms-Icon--GlobalNavButton" aria-hidden="true"></i>
-        </button>
+        <div class="nav_container" style="background: #3e3e3e; color: #eee; width: 100%; padding: 0px 30px; position: sticky; top: 0px;">
+            <p class="left" style="font-size: 24px;">The Code Drop Box</p>
+            <button class="right" style="margin-top: 17px; background: transparent; color: #eee; font-size: 24px;" onclick="openside1();">
+                <i class="ms-Icon ms-Icon--GlobalNavButton" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <div class="page_container" style="padding-top: 25px;">
+            <p style="font-size: 24px;">HTML5</p>
+            <div class="horizontal" id="scroll" onmousewheel="scrleft(event);">
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/Gl2QEPdm_qY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Setting up the environment</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/tcePlncF6tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Structure of a webpage</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/pk3kId6Sj84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>The Head Tag</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/MHA9AJe4CYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Typography</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <br><br><br>
+                    <a href="https://www.youtube.com/watch?v=puY-kHvRXzQ&list=PLjO1SSHoUq9UdRvSFu2MDA2TqCBc0quLO" style="text-decoration: none; color: #aaa"><p style="font-size: 22px; width: 125px;">See all <i class="ms-Icon ms-Icon--Forward icon circular"></i></p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page_container" style="padding-top: 25px;">
+            <p style="font-size: 24px;">CSS3</p>
+            <div class="horizontal" id="scroll" onmousewheel="scrleft(event);">
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/puY-kHvRXzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Introduction</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/YK0kWp9iwRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Colors</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/TwI8cw_SB0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Borders and Dimensions</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/f3zVcCPTuF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>The Box Model</p>
+                </div>
+                <div style="width: 310px; margin: 10px;">
+                    <br><br><br>
+                    <a href="https://www.youtube.com/watch?v=Gl2QEPdm_qY&list=PLjO1SSHoUq9W2XvL89RDli-bqwIpRD-kb" style="text-decoration: none; color: #aaa"><p style="font-size: 22px; width: 125px;">See all <i class="ms-Icon ms-Icon--Forward icon circular"></i></p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="page_container" style="padding-top: 25px;">
+            <hr>
+            <p style="font-size: 24px;">More content coming soon</p>
+        </div>
+
+        <div style="padding: 30px; background: #3e3e3e; color: #eee; margin-top: 25px; width: 100%;">
+            Get connected with <b>The Code Drop</b> on these Platforms<br><br>
+            <a href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?sub_confirmation=1" style="text-decoration: none;">
+                <button class="primary_red">YouTube</button>
+            </a>
+            <a href="https://www.instagram.com/thecodedrop/" style="text-decoration: none;">
+                <button style="background: linear-gradient(45deg, #de1738, purple); color: #eee">Instagram</button>
+            </a>
+            <a href="https://github.com/shivendrasaurav/The-Code-Drop-HTML" style="text-decoration: none;">
+                <button class="primary_inverted">GitHub</button>
+            </a>
+        </div>
+
     </div>
 
-    <div class="page_container" style="padding-top: 25px;">
-        <p style="font-size: 24px;">HTML5</p>
-        <div class="horizontal" id="scroll" onmousewheel="scrleft(event);">
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/Gl2QEPdm_qY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Setting up the environment</p>
+    <div class="sidepanel_container" id="side1" >
+        <div class="sidepanel_content zi3 right" id="modct1" style="background: #2e2e2e; color: #eee;">
+            <button class="primary_red right ta_center mod_close_btn" onclick="closeside1();">X</button>
+            <div class="page_container" style="padding-top: 75px;">
+                <button class="large12 panel_item" onclick="lightmode();" id="light">Switch to light mode</button>
+                <button class="large12 panel_item" onclick="darkmode();" id="dark">Switch to dark mode</button>
             </div>
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/tcePlncF6tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Structure of a webpage</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/pk3kId6Sj84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>The Head Tag</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/MHA9AJe4CYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Typography</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <br><br><br>
-                <a href="https://www.youtube.com/watch?v=puY-kHvRXzQ&list=PLjO1SSHoUq9UdRvSFu2MDA2TqCBc0quLO" style="text-decoration: none; color: #eee"><p style="font-size: 22px; width: 125px;">See all <i class="ms-Icon ms-Icon--Forward icon circular"></i></p></a>
+            <div style="position: absolute; bottom: 10px">
+                &copy;The Code Drop 2020
             </div>
         </div>
     </div>
 
-    <div class="page_container" style="padding-top: 25px;">
-        <p style="font-size: 24px;">CSS3</p>
-        <div class="horizontal" id="scroll" onmousewheel="scrleft(event);">
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/puY-kHvRXzQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Introduction</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/YK0kWp9iwRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Colors</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/TwI8cw_SB0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>Borders and Dimensions</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <iframe class="skeumorphic" width="300px" height="200px" src="https://www.youtube.com/embed/f3zVcCPTuF8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p>The Box Model</p>
-            </div>
-            <div style="width: 310px; margin: 10px;">
-                <br><br><br>
-                <a href="https://www.youtube.com/watch?v=Gl2QEPdm_qY&list=PLjO1SSHoUq9W2XvL89RDli-bqwIpRD-kb" style="text-decoration: none; color: #eee"><p style="font-size: 22px; width: 125px;">See all <i class="ms-Icon ms-Icon--Forward icon circular"></i></p></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="page_container" style="padding-top: 25px;">
-        <hr>
-        <p style="font-size: 24px;">More content coming soon</p>
-    </div>
-
-    <div style="padding: 30px; background: #3e3e3e; color: #eee; margin-top: 25px; width: 100%;">
-        Get connected with <b>The Code Drop</b> on these Platforms<br><br>
-        <a href="https://www.youtube.com/channel/UCnEIkvnbpbQyetPk_K9QNQg?sub_confirmation=1" style="text-decoration: none;">
-            <button class="primary_red">YouTube</button>
-        </a>
-        <a href="https://www.instagram.com/thecodedrop/" style="text-decoration: none;">
-            <button style="background: linear-gradient(45deg, #de1738, purple); color: #eee">Instagram</button>
-        </a>
-        <a href="https://github.com/shivendrasaurav/The-Code-Drop-HTML" style="text-decoration: none;">
-            <button class="primary_inverted">GitHub</button>
-        </a>
-    </div>
-
-</div>
-
-<div class="sidepanel_container" id="side1" >
-    <div class="sidepanel_content zi3 right" id="modct1" style="background: #2e2e2e; color: #eee;">
-        <button class="primary_red right ta_center mod_close_btn" onclick="closeside1();">X</button>
-        <div class="page_container" style="padding-top: 75px;">
-            <div class="large12 panel_item">Switch to light mode<br>(coming soon)</div>
-        </div>
-        <div style="position: absolute; bottom: 10px">
-            &copy;The Code Drop 2020
-        </div>
-    </div>
-</div>
+</body>
