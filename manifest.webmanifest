@@ -5,7 +5,7 @@
     "scope" : "./",
     "display" : "standalone",
     "start_url" : "./",
-    "short_name" : "CDB",
+    "short_name" : "The Code Drop Box",
     "theme_color" : "#3e3e3e",
     "description" : "",
     "orientation" : "portrait",
