@@ -18,3 +18,22 @@ body{
 a:hover:before{
     width: 0%;
 }
+.icon_large{
+    width: 100px;
+}
+
+.app_name{
+    display: inline-block;
+    color: #1e1e1e;
+    font-size: 32px;
+}
+.app_desc{
+    color: #2e2e2e;
+    font-size: 22px;
+    text-align: justify;
+}
+.can{
+    display: inline-block;
+    height: 60px;
+    width: 100px;
+}
