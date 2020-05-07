@@ -1,5 +1,5 @@
 function lightmode(){
-    document.getElementById("body").style.background=("#dedede");
+    document.getElementById("body").style.background=("#efefef");
     document.getElementById("body").style.color=("black");
     document.getElementById("light").style.display=("none");
     document.getElementById("dark").style.display=("block");
